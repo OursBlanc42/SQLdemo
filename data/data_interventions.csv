@@ -1,4 +1,4 @@
-intervention_id,equipment_tag,intervention_date,duration_hours,description
+intervention_id,tag,intervention_date,duration_hours,intervention_description
 INT001,A0001V,2022-01-14,1.5,Inspection visuelle de la vanne
 INT002,B0002R,2022-02-03,2,Remplacement du joint d'étanchéité
 INT003,C0003C,2022-02-18,3.5,Nettoyage et contrôle du clapet
