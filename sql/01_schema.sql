@@ -24,6 +24,6 @@ CREATE TABLE interventions
     intervention_id VARCHAR(6) PRIMARY KEY,
     tag VARCHAR(6) NOT NULL REFERENCES equipement(tag),
     intervention_date DATE NOT NULL,
-    duration_hours NUMERIC(2,2),
+    duration_hours NUMERIC(3,2),
     intervention_description VARCHAR(256)
 );

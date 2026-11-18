@@ -48,8 +48,15 @@ erDiagram
 The datasets were created as CSV files to add another layer to the database creation process.
 We assume that the data must exist somewhere in Excel files. This also demonstrates that data can be imported from a spreadsheet into a relational database to build the database and run initial queries.
 
-## Examples
-[wip]
+## How to ?
+
+### Instruction
+PostgreSQL est utilisé ici
+Dbeaver crée la database avec le script 01_schema.sql
+On vient injecter les données grace aux .csv depuis dbeaver
+On commence par Zone, Puis Equipement et enfin Interventions (pour éviter des erreurs par exemple insérer un équipement dans une zone qui n'existe pas encore)
+
+On peut ensuite executer les différentes requêtes SQL
 
 ## AI usage
 AI was used as a support tool in the following cases:
