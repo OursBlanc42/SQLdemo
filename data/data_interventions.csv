@@ -1,0 +1,51 @@
+intervention_id,equipment_tag,intervention_date,duration_hours,description
+INT001,A0001V,2022-01-14,1.5,Inspection visuelle de la vanne
+INT002,B0002R,2022-02-03,2,Remplacement du joint d'étanchéité
+INT003,C0003C,2022-02-18,3.5,Nettoyage et contrôle du clapet
+INT004,D0004F,2022-03-07,2.5,Remplacement de l'élément filtrant
+INT005,E0005E,2022-03-22,5,Contrôle des échangeurs et nettoyage externe
+INT006,F0006C,2022-04-11,4,Inspection du condenseur
+INT007,G0007P,2022-04-26,3,Remplacement d'un roulement de pompe
+INT008,H0008T,2022-05-09,6.5,Contrôle des vibrations
+INT009,J0009M,2022-05-24,2,Contrôle électrique du moteur
+INT010,K0010C,2022-06-13,7,Remplacement d'un joint de compresseur
+INT011,L0011V,2022-06-28,1,Vérification de la commande
+INT012,M0012R,2022-07-12,2.5,Réglage du mécanisme
+INT013,N0013C,2022-07-27,1.5,Vérification de la fermeture du clapet
+INT014,P0014F,2022-08-08,3,Nettoyage du filtre
+INT015,Q0015E,2022-08-23,4.5,Inspection des raccordements
+INT016,R0016C,2022-09-05,5.5,Nettoyage interne
+INT017,S0017P,2022-09-20,2,Contrôle de l'alignement
+INT018,T0018T,2022-10-04,8,Inspection générale
+INT019,U0019M,2022-10-19,1.5,Mesure des paramètres électriques du moteur
+INT020,V0020C,2022-11-02,6,Contrôle des vibrations du compresseur
+INT021,W0021V,2022-11-17,2,Remplacement du presse-étoupe
+INT022,X0022R,2022-12-01,1,Inspection et graissage
+INT023,Y0023C,2022-12-16,2.5,Contrôle
+INT024,Z0024F,2023-01-09,3.5,Remplacement
+INT025,A0001V,2023-01-24,2,Test fonctionnel
+INT026,B0002R,2023-02-06,1.5,Contrôle d'étanchéité
+INT027,C0003C,2023-02-21,4,Réparation
+INT028,D0004F,2023-03-08,2,Vérification de la pression différentielle
+INT029,E0005E,2023-03-23,6,Nettoyage
+INT030,F0006C,2023-04-05,3,Contrôle visuel
+INT031,G0007P,2023-04-20,5,Remplacement du joint
+INT032,H0008T,2023-05-04,2.5,Lubrification
+INT033,J0009M,2023-05-19,3,Remplacement
+INT034,K0010C,2023-06-02,4.5,Contrôle
+INT035,L0011V,2023-06-17,1.5,Inspection
+INT036,M0012R,2023-07-03,2,Remplacement de la poignée
+INT037,N0013C,2023-07-18,3,Nettoyage et contrôle 
+INT038,P0014F,2023-08-01,2.5,Contrôle du filtre
+INT039,Q0015E,2023-08-16,5,Vérification de l'étanchéité
+INT040,R0016C,2023-08-31,4,Inspection
+INT041,S0017P,2023-09-14,3.5,Contrôle du débit
+INT042,T0018T,2023-09-29,6,Vérification des vibrations et de l'alignement
+INT043,U0019M,2023-10-13,2,Nettoyage et contrôle visuel
+INT044,V0020C,2023-10-28,7.5,Révision préventive
+INT045,W0021V,2023-11-10,1,Test d'ouverture et de fermeture
+INT046,X0022R,2023-11-25,2.5,Remplacement du joint
+INT047,Y0023C,2023-12-08,3,Vérification du fonctionnement
+INT048,Z0024F,2023-12-21,4,Inspection et nettoyage
+INT049,A0001V,2024-01-12,2.5,Réglage de la commande
+INT050,G0007P,2024-01-26,5,Inspection préventive

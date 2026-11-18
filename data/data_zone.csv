@@ -1,0 +1,7 @@
+zone_id,zone_name,is_atex
+A,Bâtiment Production,1
+B,Bâtiment R&D,1
+C,Entrepôt matières premières,0
+D,Atelier de maintenance,0
+Z1,Quai 1,0
+Z2,Quai 2,0
