@@ -18,15 +18,15 @@ Since the interventions are fictitious, their descriptions may not be consistent
 Relational database schema
 ```mermaid
 erDiagram
-    ZONES {
+    ZONE {
         string zone_id PK "Numéro de la zone"
         string zone_name "Nom la zone"
         boolean is_atex "Zone Atex (Oui ou Non)"
     }
 
-    EQUIPMENT {
+    EQUIPEMENT {
         string tag PK "Identifiant unique de l'équipement"
-        string type "Type d'équipement"
+        string equipement_type "Type d'équipement"
         string zone_id FK "Numéro de la zone de l'équipement"
         string status "Statut de l'équipement"
         date commissioning_date "Date de mise en service"
@@ -41,8 +41,8 @@ erDiagram
         string description "Description courte de l'intervention"
     }
 
-    ZONES ||--o{ EQUIPMENT : contient
-    EQUIPMENT ||--o{ INTERVENTIONS : concerne
+    ZONE ||--o{ EQUIPEMENT : contient
+    EQUIPEMENT ||--o{ INTERVENTIONS : concerne
 ```
 
 ## Datasets
@@ -52,7 +52,7 @@ We assume that the data must exist somewhere in Excel files. This also demonstra
 ## Examples
 [wip]
 
-## IA usage
+## AI usage
 AI was used as a support tool in the following cases:
 - translation
 - review
