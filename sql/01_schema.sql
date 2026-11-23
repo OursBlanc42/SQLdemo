@@ -1,6 +1,6 @@
--- Setup de la database avec creation des tables + injection des data depuis les .csv
+-- Database setup
 
--- Creation de la table zone
+-- Zone table
 CREATE TABLE zone
 (
     zone_id VARCHAR(3) PRIMARY KEY,
@@ -8,7 +8,7 @@ CREATE TABLE zone
     is_atex BOOLEAN DEFAULT FALSE
 );
 
--- Creation de la table equipement
+-- Equipement table
 CREATE TABLE equipement
 (
     tag VARCHAR(6) PRIMARY KEY,
@@ -18,7 +18,7 @@ CREATE TABLE equipement
     commissioning_date DATE
 );
 
--- Creation de la table interventions
+-- Interventions table
 CREATE TABLE interventions
 (
     intervention_id VARCHAR(6) PRIMARY KEY,
