@@ -1,0 +1,7 @@
+zone_id,zone_name,is_atex
+A,Bâtiment Production,true
+B,Bâtiment R&D,true
+C,Entrepôt matières premières,false
+D,Atelier de maintenance,false
+Z1,Quai 1,false
+Z2,Quai 2,
